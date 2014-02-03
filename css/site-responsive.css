@@ -35,15 +35,13 @@
   }
 
   .content{
-    background-color: transparent;
     padding-top: 30px;
     padding-bottom: 10px;
     text-align: center;
-    background-image: none;
     border: none;
   }
 
-  .headline h3{
+  .headline{
     margin-top: 20px;
   }
 
@@ -51,19 +49,7 @@
     display: block;
   }
 
-
-
-  .beta input, .customSelect{
-    background-color: rgba(71, 69, 65,.8) !important;
-  }
-
-  .beta button{
-    background-color: rgba(140, 137, 132,.8) !important;
-  }
-
-  .footer{
-    padding-top: 0px;
-  }
+ 
 
 }
 
@@ -71,102 +57,35 @@
  
 /* Landscape phones and down */
 @media (max-width: 480px) {
-  body{
-    padding: 0 20px;
-  }
+
 
   .headline{
     padding: 0;
   }
 
 
-  .splash-wrap{
-    position: static !important;
-    /*left: 0px !important;*/
+
+  h3{
+    font-size: 30px;
+    line-height: 32px;
   }
 
-  .logo{
-    width: 60%;
-  }
-
-
-  .headline h3{
-    font-size: 34px;
-  }
-
-  .headline h5{
-    font-size: 16px;
+  h5{
+    font-size: 20px;
+    line-height: 22px;
   }
 
 
-  .beta .inputs, .beta button, .beta .alert, .beta .success{
-    width: 100%;
-    margin: 0 auto;
-  }
-
-  .beta button{
-    font-weight: bolder;
-  }
-
-  .beta input, .beta .select-wrap{
-    width: 100%;
-    float: left;
-  }
-
-  .beta input{
-    margin-bottom: 15px !important;
-  }
-
-  .beta .alert{
-    margin-top: 15px !important;
-  }
 
 
   .footer{
     margin-bottom: 10px;
   }
 
-  .social{
-    float: right;
-    margin-top: 0px;
-  }
 
-  .copy{
-    float: left;
-    margin-top: 10px;
-  }
 
   .footer{
     font-size: 10px;
-  }
-
-
-
-}
-
-
-/* Retina icons */
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
- only screen and (-o-min-device-pixel-ratio: 3/2),
- only screen and (min--moz-device-pixel-ratio: 1.5),
-     only screen and (min-device-pixel-ratio: 1.5) {
-
-  .share-links img{
-    width: 20px;
-    height: 20px;
-  }
-  
-}
-
-@media only screen and (max-width: 480px),
- only screen and (-webkit-min-device-pixel-ratio: 1.5),
- only screen and (-o-min-device-pixel-ratio: 3/2),
- only screen and (min--moz-device-pixel-ratio: 1.5),
-     only screen and (min-device-pixel-ratio: 1.5) {
-
-  .share-links img{
-    width: 20px;
-    height: 20px;
   }
 
 }
