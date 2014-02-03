@@ -1,15 +1,15 @@
 {
-  "name": "voxa.com",
+  "name": "supambassador.us",
   "version": "0.0.1",
   "private": true,
-  "description": "Voxa launch page",
-  "keywords": ["voxa"],
-  "author": "chalaschek <chris.halaschek@voxa.com>",
+  "description": "supambassador.us",
+  "keywords": ["sup","supambassador"],
+  "author": "chalaschek <chalaschek@gmail.com>",
   "main": "index",
   "contributors": [
     { 
       "name": "chalaschek", 
-      "email": "chris.halaschek@voxa.com" 
+      "email": "chalaschek@gmail.com" 
     }
   ],
   "dependencies": {
