@@ -35,7 +35,7 @@
   }
 
   .content{
-    padding-top: 30px;
+    padding-top: 10px;
     padding-bottom: 10px;
     text-align: center;
     border: none;
@@ -57,12 +57,13 @@
  
 /* Landscape phones and down */
 @media (max-width: 480px) {
-
+  .content{
+    padding-top: 10px;
+  }
 
   .headline{
     padding: 0;
   }
-
 
 
   h3{
@@ -86,6 +87,11 @@
 
   .footer{
     font-size: 10px;
+  }
+
+  .social img{
+    height: 30px;
+    width: 30px;
   }
 
 }
