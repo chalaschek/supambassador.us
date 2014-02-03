@@ -1,0 +1,130 @@
+
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 200;
+  src: local('Raleway ExtraLight'), local('Raleway-ExtraLight'), url(http://themes.googleusercontent.com/static/fonts/raleway/v7/8KhZd3VQBtXTAznvKjw-k73hpw3pgy2gAi-Ip7WPMi0.woff) format('woff');
+}
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Raleway'), url(http://themes.googleusercontent.com/static/fonts/raleway/v7/cIFypx4yrWPDz3zOxk7hIQLUuEpTyoUstqEm5AMlJo4.woff) format('woff');
+}
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body, h3, h4, h5{
+  font-family: "Raleway", "HelveticaNeue", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+html, body {
+  height: 100%;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  background-color: #333333;
+  background-attachment: fixed;
+  background-position: 50% 0px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(../img/inflamistral.jpg);
+  min-width: 280px;
+  color: whitesmoke;
+}
+
+
+.center{
+  text-align: center;
+}
+
+
+.justify{
+  text-align: justify;
+}
+
+
+
+.splash-wrap{
+  z-index: 15;
+  width: 550px;
+  overflow: visible;
+  visibility: hidden;
+}
+
+.content{
+  width: 100%;
+  background-color: rgba(0,0,0,.6);
+  padding-top: 60px;
+  padding-bottom: 40px;
+  text-align: center;
+  background-image: url(../img/highlight.png);
+  background-repeat: no-repeat;
+  border: 1px solid #333;
+}
+
+.headline{
+  padding: 0 20px;
+  margin-bottom: 20px;
+}
+
+.headline h3{
+  /*color: #7B746E;*/
+  font-size: 40px;
+  line-height: 40px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  font-weight: 200;
+}
+
+h5{
+  font-size: 30px;
+  line-height: 30px;
+  margin: 0;
+  font-weight: 200;
+
+}
+
+
+
+/* Footer */
+
+.footer{
+  overflow: auto;
+  text-align: center;
+  color: #fff;
+  font-size: 14px;
+  padding-top: 20px;
+  margin-bottom: 20px;
+  line-height: 20px;
+}
+
+.footer .copy span{
+  position: relative;
+  top: 0px;
+}
+
+.social{
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.social img{
+  margin-left: 5px;
+  margin-right: 5px;
+  image-rendering: -webkit-optimize-contrast;
+  height: 40px;
+  width: 40px;
+}
+
+
+
+.social img:hover{
+  opacity: .8;
+}

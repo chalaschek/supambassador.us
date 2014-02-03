@@ -1,0 +1,20 @@
+{
+  "name": "voxa.com",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Voxa launch page",
+  "keywords": ["voxa"],
+  "author": "chalaschek <chris.halaschek@voxa.com>",
+  "main": "index",
+  "contributors": [
+    { 
+      "name": "chalaschek", 
+      "email": "chris.halaschek@voxa.com" 
+    }
+  ],
+  "dependencies": {
+ },
+ "devDependencies": {
+    "uglify-js" : "1.3.4"
+  }
+}
