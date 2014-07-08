@@ -60,7 +60,9 @@ html, body {
 
 .content{
   width: 100%;
-  background-color: rgba(0,0,0,.6);
+  /*background-color: rgba(0,0,0,.6); */
+  background-color: rgba(255, 255, 255, .6);
+  color: #000;
   padding-top: 60px;
   padding-bottom: 40px;
   text-align: center;
@@ -80,14 +82,14 @@ h3{
   line-height: 40px;
   margin-bottom: 0px;
   margin-top: 0px;
-  font-weight: 200;
+  font-weight: 400;
 }
 
 h5{
   font-size: 30px;
   line-height: 30px;
   margin: 0;
-  font-weight: 200;
+  font-weight: 400;
 
 }
 
@@ -127,4 +129,10 @@ h5{
 
 .social img:hover{
   opacity: .8;
+}
+
+
+.mistral img{
+  width: 300px;
+  margin: 25px 0px 10px 0px;
 }
