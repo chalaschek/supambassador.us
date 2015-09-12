@@ -34,7 +34,9 @@ html, body {
   background-position: 50% 0px;
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: url(../img/inflamistral.jpg);
+  /*background-image: url(../img/inflamistral.jpg);*/
+  background-image: url(../img/Siren_Normen_Weber1.jpg);
+  /*background-image: url(../img/Siren_Markus_Board1.jpg);*/
   min-width: 280px;
   color: whitesmoke;
 }
@@ -86,10 +88,10 @@ h3{
 }
 
 h5{
-  font-size: 30px;
-  line-height: 30px;
+  font-size: 35px;
+  line-height: 40px;
   margin: 0;
-  font-weight: 400;
+  font-weight: 900;
 
 }
 
@@ -134,5 +136,10 @@ h5{
 
 .mistral img{
   width: 300px;
+  margin: 25px 0px 10px 0px;
+}
+
+.siren img{
+  width: 200px;
   margin: 25px 0px 10px 0px;
 }
