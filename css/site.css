@@ -35,8 +35,10 @@ html, body {
   background-size: cover;
   background-repeat: no-repeat;
   /*background-image: url(../img/inflamistral.jpg);*/
-  background-image: url(../img/Siren_Normen_Weber1.jpg);
+  /*background-image: url(../img/Siren_Normen_Weber1.jpg);*/
   /*background-image: url(../img/Siren_Markus_Board1.jpg);*/
+  background-image: url(../img/AM-SUP-7-12-008.jpg);
+  
   min-width: 280px;
   color: whitesmoke;
 }
@@ -70,7 +72,8 @@ html, body {
   text-align: center;
   background-image: url(../img/highlight.png);
   background-repeat: no-repeat;
-  border: 1px solid #333;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+  /*border: 1px solid #333;*/
 }
 
 .headline{
